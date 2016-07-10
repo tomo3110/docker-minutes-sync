@@ -4,4 +4,4 @@ RUN git clone --depth 1 https://github.com/tomo3110/minutes-sync.git
 WORKDIR minutes-sync
 ENV PORT=3306
 RUN npm install
-ENTRYPOINT ["npm", "start"]
+CMD ["npm", "start"]
